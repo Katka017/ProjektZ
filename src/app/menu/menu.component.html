@@ -1,0 +1,21 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<mat-card>
+    <button mat-button [matMenuTriggerFor]="menu">
+    Wybierz dyscyplinę
+    </button>
+  <mat-menu #menu="matMenu" class="top">
+    <button mat-menu-item routerLink='/cwiczenie1' routerLinkActive='Active'>
+        Piłka
+    </button>
+    <button mat-menu-item routerLink='/cwiczenie2' routerLinkActive='Active'>
+          Rower
+    </button>
+    <button mat-menu-item routerLink='/cwiczenie3' routerLinkActive='Active'>
+            Bieganie
+    </button>
+    <button mat-menu-item routerLink='/cwiczenie4' routerLinkActive='Active'>
+            Joga
+    </button>
+  </mat-menu>
+</mat-card>

@@ -1,0 +1,18 @@
+<mat-card class="card">
+  <mat-card-title>Jedz zdrowo i smacznie</mat-card-title>
+    <mat-card-content>Zobacz przepis - kliknij w wybrane zdjęcie </mat-card-content>
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>
+       <img  (click) = "openPicture1()" src= 'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/zielone_smoothie_ze_szpinakiem_01.jpg'/>
+    </mat-grid-tile>
+    <mat-grid-tile>
+       <img (click) = "openPicture2()"src= 'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/pancakes_z_czekolada_01.jpg'/>
+    </mat-grid-tile>
+    <mat-grid-tile >
+        <img (click) = "openPicture3()"src= 'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/ryz_smazony_z_kurczakiem_po_meksykansku_02.jpg'/>
+    </mat-grid-tile>
+    <mat-grid-tile>
+       <img (click) = "openPicture4()"src= 'https://www.kwestiasmaku.com/sites/kwestiasmaku.com/files/szparagi_zapiekane_z_szynka_parmenska_serem_02.jpg'/>
+    </mat-grid-tile>
+  </mat-grid-list>
+</mat-card>

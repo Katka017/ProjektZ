@@ -1,0 +1,31 @@
+
+<div class="container">
+  <p>Jeśli masz jakieś pytania, uwagi do prezentowanych treści.
+    Napisz do nas!
+  </p>
+  
+ <form class="form">
+
+  <mat-form-field class="full-width">
+    <input type="text" matInput placeholder="Imię:">
+  </mat-form-field>
+
+  <mat-form-field class="full-width"  >
+   <input type="text" matInput placeholder="Email:">
+  </mat-form-field>
+  <mat-form-field class="full-width">
+    <input type="text" matInput [formControl]="myControl" [matAutocomplete]="auto" placeholder="Płeć:">
+  </mat-form-field>
+   <mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let option of options" [value]="option">
+      {{option}}
+    </mat-option>
+   </mat-autocomplete>
+ </form>
+  <div class="container">
+   <mat-form-field>
+    <textarea matInput placeholder="Treść wiadomości"></textarea>
+   </mat-form-field>
+  </div>
+  <button mat-stroket-button click="clear()" >Wyślij</button>
+</div>

@@ -1,0 +1,57 @@
+<mat-card > 
+   <mat-card class="aside">
+       <div>Prace z zajęć</div>
+      <mat-list role="list">
+        <mat-list-item role="listitem"><a class="linki" href='https://angular-starwarsydoproj.stackblitz.io/'>StarWars</a></mat-list-item>
+         <mat-divider></mat-divider>
+        <mat-list-item role="listitem"><a class="linki" href='https://angular-galeriadoproj.stackblitz.io/'>Galeria</a></mat-list-item>
+         <mat-divider></mat-divider>
+        <mat-list-item role="listitem"><a class="linki" href='https://react-czatdoproj.stackblitz.io/'>React-czat</a></mat-list-item>
+      </mat-list>
+   </mat-card>
+ <mat-card class="sectio">
+   <div class="preview">
+     <img [src]= "pictures[currentPicture]" />
+   </div>
+   <div 
+  (click)='selectNextPicture()'
+  class="nav next"> NEXT>>
+   </div>
+   <div class="nav prev"
+  (click)='selectPrevPicture()'> <<PREV</div>
+ </mat-card>
+</mat-card>
+<mat-card class='text'>
+   <div class="klasa1">
+    <mat-card-title>Jak zacząć zdrowo żyć?</mat-card-title>
+     <mat-card-content>Czasem coś sobie obiecujesz. Składasz sobie przyrzeczenia, które następnie mniej lub bardziej gorliwie realizujesz. Najczęściej mniej gorliwie. Instagram i Facebook jest pełen wysportowanych ludzi i posiłków jak z najlepszych restauracji. W końcu myślisz: „Nie dam rady”. Dasz radę. Naprawdę. Tylko postaraj się działać nieco wolniej i metodycznie. Postaraj się wybrać swoje priorytety na najbliższy czas. Pomogę Ci.
+Wierzę w zrównoważony, zdrowy styl życia. Wierzę w zdrową, zbilansowaną dietę na co dzień. I wierzę w to, że jeśli dostarczysz swojemu organizmowi odpowiednich składników to odwdzięczy Ci się poprawnie funkcjonującą fizjologią. A jeśli nie to konieczny jest specjalista – wykształcony, posiadający wiedzę, a nie tylko zbierający ją z dowolnych źródeł.
+
+Dziś zebrałam dla Ciebie teksty, które być może pomogą Ci ocenić Twoje potrzeby i priorytety, ale również się za nie twórczo i metodycznie zabrać.
+     </mat-card-content>
+    <mat-card-title>Zebrałam tu teksty dotyczące:</mat-card-title>
+     <mat-card-content>
+cukru i słodyczy,
+zbiory moich zdrowych przepisów na każdą porę dnia,
+kilka tekstów teoretycznych, które być może przekonają Cię do moich rozwiązań.
+Ale najpierw odpowiem na bardzo ważne pytanie.
+     </mat-card-content>
+    <mat-card-title>Jak zacząć zdrowo żyć?</mat-card-title>
+     <mat-card-content>
+Jak zacząć zdrowo żyć? Tak, żeby nie zrobić sobie krzywdy? Tak, żeby nie porzucić tego pięknego pomysłu już na początku swojej drogi? Tak, żeby nas to nie bolało i nie było katorgą?
+
+Odpowiedź jest jedna i choć powtarzam ją na blogu jak mantrę to i tak często dostaję zrozpaczone maile od Was, które krzyczą: nie dam rady, nie wiem, nie mam pojęcia, jestem załamana etc.:
+
+MAŁYMI KROKAMI!
+Tylko metoda małych kroków może coś zmienić, ponieważ człowiek działa w wielu przypadkach nawykowo, a jak wiemy nawyki nie kształtują się w ciągu godziny. Pamiętaj o tym, że nawyki to nie zamierzenia czy postanowienia. Są od nich dużo silniejsze.
+
+Podejmij dziś jedną z drobnych decyzji. Jakie to mogą być decyzje? Np. że wprowadzisz do diety zdrowsze zamienniki cukru, że raz w tygodniu zjesz gulasz z roślinami strączkowymi, że ograniczysz ilość masła czy oleju, że urozmaicisz swoją dietę i spróbujesz wdrożyć do niej nowe pseudozboża takie jak gryka czy komosa. Wymieniać mogłabym wiele. Po lekturze poniższych artykułów z pewnością wpadną Ci do głowy najbardziej pilne do realizacji pomysły. A później będziesz w stanie realizować kolejne. I kolejne.
+
+Jak ograniczyć cukier i słodycze w diecie?
+Cukier to największy problem i często to pierwsza rzecz, nad którą warto popracować. Proponuję Ci wpisy, które być może pomogą Ci podjąć pewne kroki w tym kierunku. Oczywiście powtarzam często, że najlepiej po prostu jak najmniej dosładzać – czymkolwiek, nawet „zdrowymi” słodzikami. Jednak na początku potrzebujemy jakiejś alternatywy.
+
+Co jeść zamiast słodyczy?
+Tu właśnie mowa o alternatywach. Zdrowszych i oferujących Twojemu organizmowi dużo więcej niż sam cukier.
+    </mat-card-content>
+  </div>
+</mat-card>

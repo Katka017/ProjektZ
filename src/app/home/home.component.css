@@ -1,0 +1,72 @@
+mat-card {
+    max-width: 1800px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sectio{
+    position: relative;
+    max-width: 1200px;
+    border: 1px solid lightblue;
+    background-color: rgb(148, 173, 184);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.preview {
+  
+    text-align: center;
+    
+}
+
+.nav {
+    position: absolute;
+    top: 45%;
+    color: whitesmoke;
+}
+.prev{
+    left: 20px;
+}
+.next{
+    right: 20px;
+}
+.prev:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.next:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.sectio div img {
+    max-width: 1000px;
+    max-height: 400px;
+    
+}
+.text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aside {
+    max-width: 100px;
+    float: right;
+    margin-right: 50px;
+    background-color: rgb(148, 173, 184);
+    margin-top: 20px;
+}
+.linki {
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+}
+.klasa1 {
+    opacity: .8;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}

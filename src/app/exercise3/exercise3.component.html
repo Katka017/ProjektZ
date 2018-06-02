@@ -1,0 +1,64 @@
+<mat-card class="aside">
+    <app-menu></app-menu>
+</mat-card>
+<mat-card>
+<mat-card>
+<mat-card-title>7 kroków wytrawnego biegacza</mat-card-title>
+<mat-card-title>Znajdź cel</mat-card-title>
+<mat-card-content>
+        Rozpoczynając przygodę z bieganiem wyznacz sobie cel, który będzie Twoim motywatorem do regularnych treningów. Może to być np. „zgubienie” zbędnych kilogramów, poprawa kondycji, praca nad zgrabną sylwetką, wzmocnienie mięśni.
+
+        Konkretny i realny cel pomoże Ci pokonać bariery, wyjść z domu i przemierzać wyznaczoną trasę.
+</mat-card-content>
+<mat-card-title>Zbierz sojuszników</mat-card-title>
+<mat-card-content>
+        Znajdź w swoim otoczeniu osoby, które będą Cię wspierały w realizacji postanowień. Może to być rodzina, która będzie ci kibicować w zmaganiach lub znajomi, którym od czasu do czasu opowiesz o swoich postępach.
+
+        Ideałem jest, gdy wśród najbliższego Ci grona znajdziesz ludzi, którzy będą razem z Tobą biegać. Rozejrzyj się, czy znany Ci klub fitness nie ma przypadkiem w ofercie amatorskich treningów biegowych. Jeśli tak, to uzyskasz potężną armię „sojuszników” i „wodza” – trenera, który przeprowadzi cię przez najtrudniejsze psychiczne i fizyczne bariery.
+        
+</mat-card-content>
+<mat-card-title>Rozpoznaj możliwości</mat-card-title>
+<mat-card-content>
+    Nikt od razu nie jest mistrzem. Jeśli ruch do tej pory nie był Twoją najmocniejszą stroną, to absolutnie nie zaczynaj od startu w maratonie! Pierwsze treningi powinny bardziej przypominać intensywny spacer niż bieg. Kiedy Twój organizm będzie już odpowiednio zaadoptowany przebiegnij w umiarkowanym tempie dystans ok. 30 min.
+
+    Pół godziny to na początek optimum, w kolejnych dniach możesz stopniowo zwiększać czas biegu – zawsze jednak starannie słuchaj, co mówi twój organizm.
+</mat-card-content>
+<mat-card-title>Trzymaj rytm</mat-card-title>
+<mat-card-content>
+    W każdej dyscyplinie sportu efekty osiąga się dzięki konsekwencji i systematyczności. Biegaj regularnie. Fachowcy podają, że optymalna liczba treningów to minimum trzy w tygodniu. W miarę możliwości staraj się utrzymać ten rytm.
+
+</mat-card-content>
+<mat-card-title>Szybko reaguj na kontuzje i ból</mat-card-title>
+<mat-card-content>
+    Wytrawnym biegaczom znany jest termin: „parszywa siódemka”. Kryje się pod nim siedem paskudnych kontuzji:
+
+    kolano biegacza, czyli zespół bólu przedniej części stawu kolanowego,
+    zapalenie ścięgna Achillesa,
+    uszkodzenie zginaczy kolana,
+    zapalenia rozcięgna podeszwowego,
+    tzw. „sztywna łydka” - uczucie napięcia i bólu po przyśrodkowej stronie kości piszczelowej,
+    syndrom pasma biodrowo-piszczelowego
+    i złamania zmęczeniowe.
+    Pamiętaj, aby zawsze odpowiednią rozgrzewką poprzedzać każdą aktywność fizyczną, co zabezpieczy Cię przed potencjalnymi kontuzjami.</mat-card-content>
+<mat-card-title>Złap formę</mat-card-title>
+
+<mat-card-content>
+    Jeśli udało Ci się kontuzję skutecznie wyleczyć, to możesz wrócić do biegania. Pamiętaj, że powinieneś zacząć od początku, czyli spacer, bieg… no i koniecznie dołącz konsekwencję oraz systematyczność.
+
+
+</mat-card-content>
+</mat-card>
+<mat-card>
+    <div class='previev'>
+    <img [src]='pictures[currentPicture]'/>
+    </div>
+    <mat-list>
+        <mat-list-item *ngFor='let picture of pictures; let i=index'
+        [class.active]='currentPicture===i'
+        (click)='selectPicture(i)'>
+        <img [src]= 'picture'/>
+    
+         </mat-list-item>
+    </mat-list>
+    
+</mat-card>

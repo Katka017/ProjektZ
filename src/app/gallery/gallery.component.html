@@ -1,0 +1,20 @@
+<section>
+   <mat-card>
+          <div class='previev'>
+            <img [src]='pictures[currentPicture]'/>
+          </div>
+        <mat-list>
+            <mat-list-item *ngFor='let picture of pictures; let i=index'
+            [class.active]='currentPicture===i'
+            (click)='selectPicture(i)'>
+            <img [src]= 'picture'/>
+        
+             </mat-list-item>
+        </mat-list>
+        
+        <div class='nav next' 
+        (click)='selectNextPicture()'> > </div>
+        <div class='nav prev' 
+        (click)='selectPrevPicture()'> < </div>
+   </mat-card>
+</section>

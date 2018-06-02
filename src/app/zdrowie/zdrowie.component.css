@@ -1,0 +1,25 @@
+mat-card {
+    
+    max-width: 1400px;
+    border: 1px solid lightblue;
+    background-color: lightgray;
+
+}
+
+
+.nav {
+   
+    top: 45%;
+    color: whitesmoke;
+}
+
+.card {
+    margin: 30px;
+}
+mat-card-content {
+    opacity: .6;
+    font-size: 20px;
+}
+img:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+section {
+    position: relative;
+    max-width: 1400px;
+    border: 1px solid rgb(124, 142, 148);
+    background-color: gainsboro;
+    padding: 10px;
+    margin-top: 20px;
+    
+
+}
+
+.nav {
+    position: absolute;
+    top: 45%;
+    color: whitesmoke;
+}
+.aside {
+    position: relative;
+    max-width: 80px;
+    float: right;
+    border: 1px solid rgb(124, 142, 148);
+    background-color: gainsboro;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 500px;
+}
+
+    

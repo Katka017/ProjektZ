@@ -1,0 +1,73 @@
+section {
+    max-width: 1200px;
+    padding: 10px;
+    /* border: 2px solid greenyellow; */
+    position: relative;
+    padding: 30px;
+    
+}
+
+mat-list mat-list-item {
+    display: inline;
+    padding: 20px;
+    margin: 10px;
+    max-width: 50px;
+    opacity: .4;
+    display: inline-block;
+    left: none;
+    
+}
+
+
+section div img{
+    max-width: 800px;
+    max-height: 300px;
+    text-align: center;
+}
+
+mat-list mat-list-item img {
+    max-width: 100px;
+    
+
+}
+
+mat-list mat-list-item:hover {
+    opacity: 1;
+    cursor: pointer;
+   
+}
+
+.nav {
+    position: absolute;
+    top: 200px;
+}
+
+.prev {
+    left: 30px;
+}
+
+.next {
+    right: 30px;
+}
+.prev:hover {
+    cursor: pointer;
+}
+
+.next:hover {
+    cursor: pointer;
+}
+
+.previev {
+    text-align: center;
+
+}
+
+.previev img {
+    max-width: 300px;
+}
+mat-list mat-list-item.active{
+    opacity: 1;
+}
+mat-list mat-list-item img {
+max-width: 100px;
+max-height: 40px; }

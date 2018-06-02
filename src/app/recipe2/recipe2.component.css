@@ -1,0 +1,18 @@
+mat-list mat-list-item {
+ font-size: small;
+}
+
+mat-list {
+    float: left;
+    max-width: 800px;
+    
+}
+mat-card-content {
+    max-width: 800px;
+   padding: 20px;
+   
+}
+mat-divider {
+    opacity: 0.5;
+}
+

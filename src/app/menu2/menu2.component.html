@@ -1,0 +1,18 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<mat-card>
+   <button mat-button [matMenuTriggerFor]="menu">
+    Menu
+   </button>
+  <mat-menu #menu="matMenu" class="top">
+    <button mat-menu-item routerLink='/zdrowie' routerLinkActive='Active' >
+        Przepisy
+    </button>
+    <button mat-menu-item routerLink='/sport' routerLinkActive='Active'>
+          Sport
+    </button>
+    <button mat-menu-item routerLink='/kontakt' routerLinkActive='Active'>
+          Kontakt
+    </button>
+  </mat-menu>
+</mat-card>

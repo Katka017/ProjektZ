@@ -1,0 +1,70 @@
+<mat-card class="aside">
+    <app-menu></app-menu>
+</mat-card>
+<mat-card>
+  <mat-card>
+    
+   <mat-card-title>Ćwiczenia z piłką gimnastyczną: </mat-card-title>
+     <mat-card-title>Rolowanie piłki rękami</mat-card-title>
+      <mat-card-content>
+    Połóż piłkę na podłodze. Nogi zegnij lekko w kolanach i rozstaw na szerokość bioder. Roluj piłkę dłońmi przed siebie, mocno wyciągając kręgosłup do przodu. Wypnij biodra do przodu i poczuj, jak rozciągają się poszczególne partie mięśni.
+    
+    Żeby zintensyfikować ćwiczenie, unoś na zmianę ręce do góry. Piłka służy jako podpór, ale jest niestabilna, przez co ćwiczenie jest trudniejsze. Powtórz po 10 razy na każdą rękę.
+    
+    Na koniec ćwiczenia zaokrąglij kręgosłup i zacznij rolować piłkę w drugą stronę, do pełnego wyprostu sylwetki.
+      </mat-card-content>
+    
+  <mat-card-title>Rolowanie piłki nogą</mat-card-title>
+    <mat-card-content>
+Stań przed piłką. Prawą nogę postaw na piłce, prawą rękę oprzyj na biodrze. Lewa ręka zwisa wzdłuż tułowia. Ćwiczenie polega na prostowaniu prawej nogi z równoczesnym podnoszeniem lewej ręki do góry. Poczujesz rozciąganie tylnej strony uda i łydki.
+
+Powtórz 10 razy, a następnie zmień nogę i zacznij od początku.
+    </mat-card-content>
+
+  <mat-card-title>Rozciąganie tułowia</mat-card-title>
+    <mat-card-content>
+Złap piłkę między nogami (piłka leży na podłodze, a ty delikatnie ściskaj ją kolanami). Wyciągnij ramiona na boki i rób skłony boczne. Trzymanie piłki spowoduje, że unieruchomisz miednicę, co wspomoże rozciąganie bocznych stron tułowia. Powtórz po 10 razy na każdą stronę.
+    </mat-card-content>
+
+  <mat-card-title>Kążenia bioder</mat-card-title>
+   <mat-card-content>
+Usiądź na piłce, ręce oprzyj na talii. Zrób krążenia w lewą i w prawą stronę. To ćwiczenie doskonale rozluźnia i masuje biodra.
+   </mat-card-content>
+
+
+  <mat-card-title>Rozciąganie górnej części tułowia</mat-card-title>
+   <mat-card-content>
+Usiądź na piłce. Pomału zjedź na dół, tak żeby znalazły się na niej plecy i głowa. Otwórz klatkę piersiową, rozkładając ręce na boki. Poczuj, jak rozciąga się górna część tułowia.
+
+Po chwili wyciągnij ręce, tak jakbyś dłońmi chciała dotknąć do podłogi i rozluźnij brzuch. Utrzymaj pozycję. Po chwili unieś ręce do góry i staraj się wrócić do pozycji wyjściowej (siedzenia na piłce).
+   </mat-card-content>
+  <mat-card-title>Rozciąganie nóg</mat-card-title>
+   <mat-card-content>
+Stań przed piłką. Lewą nogę ugnij w kolanie, a prawą zrób pogłębiony wykrok do tyłu. Prawą rękę oprzyj na piłce, która ułatwi utrzymanie równowagi. Zostań w tej pozycji parę chwil, po czym opuść kolano prawej nogi, opierając je o podłogę. Wyciągnij ręce na piłce jak najdalej potrafisz, głowę opuść między ramionami. Wytrzymaj chwilę i wróć do poprzedniej pozycji.
+
+Bez wykonywania gwałtownych ruchów stan w dużym rozkroku (obie nogi ugięte w kolanach, stopy skierowane do przodu). Piłkę ustaw przed sobą, oprzyj na niej obie dłonie i przenoś ciężar ciała z jednej nogi na drugą. Powtórz ćwiczenie po 10 razy na każdą nogę.
+
+Zatrzymaj się, ugnij prawą nogę w kolanie i powtórz pierwsze ćwiczenie nogi (tym razem rozciągasz drugą nogę).
+   </mat-card-content>
+
+  <mat-card-title>Rolowanie piłki do przodu</mat-card-title>
+   <mat-card-content>
+Usiądź w szerokim rozkroku. Podnieś piłkę do góry i rób skłony do lewej nogi, do góry i do prawej strony. Powtórz dowolną ilość razy.
+
+Połóż piłkę przed sobą i roluj ją do przodu. Wytrzymaj chwilę i wróć do poprzedniej pozycji.
+   </mat-card-content>
+</mat-card>
+<mat-card>
+  <div class='previev'>
+    <img [src]='pictures[currentPicture]'/>
+  </div>
+    <mat-list>
+        <mat-list-item role="listitem" *ngFor='let picture of pictures; let i=index'
+        [class.active]='currentPicture===i'
+        (click)='selectPicture(i)'>
+        <img [src]= 'picture'/>
+        </mat-list-item>
+    </mat-list>
+    
+ </mat-card>
+</mat-card>

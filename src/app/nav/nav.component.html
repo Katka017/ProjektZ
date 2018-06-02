@@ -1,0 +1,25 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<mat-card>
+   <div class="menu2">
+    <app-menu2></app-menu2>
+   </div>
+    <mat-list>
+      <mat-list-item routerLink='/' routerLinkActive='Active'
+     [routerLinkActiveOptions]='{exact:true}'> 
+            <button mat-button class="but">
+                 Strona główna
+            </button>
+      </mat-list-item>
+      <mat-list-item routerLink='/opis' routerLinkActive='Active'>
+            <button mat-button class="but">
+             Opis
+            </button>
+      </mat-list-item>
+      <mat-list-item routerLink='/galeria' routerLinkActive='Active'>
+            <button mat-button class="but">
+               Galeria
+            </button>
+      </mat-list-item>
+    </mat-list>
+</mat-card>

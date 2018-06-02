@@ -1,0 +1,26 @@
+section{
+    position: relative;
+    max-width: 1400px;
+    border: 1px solid rgb(124, 142, 148);
+    background-color: lightcyan;
+    padding: 10px;
+
+}
+
+.nav {
+    position: absolute;
+    top: 45%;
+    color: whitesmoke;
+}
+mat-list {
+    float: left;
+    max-width: 800px;
+}
+mat-card-content {
+    max-width: 800px;
+   padding: 20px;
+   
+}
+mat-divider {
+    opacity: 0.5;
+}
