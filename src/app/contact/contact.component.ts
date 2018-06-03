@@ -15,9 +15,7 @@ export class ContactComponent  {
    'mężczyzna',
    
   ];
-clear() {
-  
-}
+
 }
 
 
