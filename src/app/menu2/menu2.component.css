@@ -1,15 +1,18 @@
 
 top {
     position: relative;
-    margin-top: 20px !important;
+    /* margin-top: 60px !important; */
 
 }
-mat-card {
+mat-card {height: 60px;
    
-    max-width: 80px;
+    /* max-width: 60px;
     text-align: center;
-    background-color: thistle;
+    background-color: whitesmoke; */
 }
-mat-card button {
+button {
     text-align: center;
+    height: 60px;
+    width: 120px;
+    background-color: whitesmoke;
 }

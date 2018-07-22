@@ -6,14 +6,16 @@ mat-list mat-list-item {
     margin-top: 30px;
 }
 mat-list {
-    border-bottom: 2px solid rgb(141, 131, 131);
+    border-bottom: 2px solid white;
     
 }
 .active {
     color: blue;
 }
 .but{
-    background-color: thistle;
+    background-color: whitesmoke;
+    height: 60px;
+    width: 120px;
   
 }
 .menu2 {
@@ -24,6 +26,6 @@ mat-list {
     
 }
 mat-card  {
-    background-color: rgb(204, 221, 220);
+    background-color: rgb(231, 230, 236);
     
 }

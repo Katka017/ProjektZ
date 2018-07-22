@@ -1,7 +1,7 @@
 mat-card {
     max-width: 1200px;
     margin: 20px;
-    border: 2px solid lightgray;
+    border: 2px solid rgb(243, 235, 235);
     position: relative;
     padding: 30px;
     
@@ -53,7 +53,7 @@ mat-list mat-list-item.active{
     max-width: 80px;
     float: right;
     border: 1px solid rgb(124, 142, 148);
-    background-color: gainsboro;
+    background-color: rgb(231, 233, 224);
     padding: 10px;
     margin-top: 20px;
     text-align: center;

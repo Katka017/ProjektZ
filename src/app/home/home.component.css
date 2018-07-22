@@ -7,10 +7,10 @@ mat-card {
 }
 .sectio{
     position: relative;
-    max-width: 1200px;
+    max-width: 1000px;
     border: 1px solid lightblue;
     background-color: rgb(148, 173, 184);
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
 }
 

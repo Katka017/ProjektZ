@@ -12,3 +12,7 @@ mat-card mat-card-content {
 p {
     margin-bottom: 10px;
 }
+
+mat-card {
+    background-color: rgb(231, 230, 236);
+}

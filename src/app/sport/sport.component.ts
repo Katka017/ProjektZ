@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./sport.component.css']
 })
 export class SportComponent {
-  
 }
