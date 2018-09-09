@@ -73,6 +73,8 @@ import { Exercise1Component } from './exercise1/exercise1.component';
 import { Exercise2Component } from './exercise2/exercise2.component';
 import { Exercise3Component } from './exercise3/exercise3.component';
 import { Exercise4Component } from './exercise4/exercise4.component';
+import { AnimatComponent } from './animat/animat.component';
+import { TravelComponent } from './travel/travel.component';
 
 const routes : Routes =[
   {
@@ -124,6 +126,10 @@ const routes : Routes =[
     component: Exercise4Component,
   },
   {
+    path:'podroze',
+    component: TravelComponent,
+  },
+  {
     path:'**',
     component: PageNotFoundComponent,
   },
@@ -169,7 +175,7 @@ const routes : Routes =[
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
-  ],
+  ]
 })
 
 
@@ -189,6 +195,8 @@ export class DemoMaterialModule {}
   ],
   
   declarations: [
+    TravelComponent,
+    AnimatComponent,
     AppComponent,
     NavComponent,
     HomeComponent,
