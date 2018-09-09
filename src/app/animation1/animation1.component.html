@@ -1,0 +1,12 @@
+<mat-card>
+    
+    <button mat-button (click)="toggle()">PARYŻ</button>
+    <div [@listAnimation]="items.length"
+        (@listAnimation.start)="logAnimation($event)"
+        (@listAnimation.done)="logAnimation($event)"
+    >
+      <div *ngFor="let item of items">
+          <img [src]= 'item'/>
+      </div>
+    </div>
+    </mat-card>

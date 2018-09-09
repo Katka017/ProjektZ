@@ -75,6 +75,8 @@ import { Exercise3Component } from './exercise3/exercise3.component';
 import { Exercise4Component } from './exercise4/exercise4.component';
 import { AnimatComponent } from './animat/animat.component';
 import { TravelComponent } from './travel/travel.component';
+import { Animation1Component } from './animation1/animation1.component';
+import { Animation2Component } from './animation2/animation2.component';
 
 const routes : Routes =[
   {
@@ -175,7 +177,8 @@ const routes : Routes =[
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,
-  ]
+  ],
+  declarations: []
 })
 
 
@@ -217,7 +220,8 @@ export class DemoMaterialModule {}
     Exercise1Component, 
     Exercise2Component, 
     Exercise3Component, 
-    Exercise4Component
+    Exercise4Component,
+    Animation1Component, Animation2Component
   ],
   entryComponents: [Menu2Component, Recipe1Component, Recipe2Component, Recipe3Component, Recipe4Component],
   bootstrap: [AppComponent,Menu2Component],

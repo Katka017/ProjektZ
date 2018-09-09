@@ -1,5 +1,6 @@
-<h2>Zdjęcia </h2>
-<button (click)="toggle()">LUXEMBURG</button>
+<mat-card>
+
+<button mat-button (click)="toggle()">LUXEMBURG</button>
 <div [@listAnimation]="items.length"
     (@listAnimation.start)="logAnimation($event)"
     (@listAnimation.done)="logAnimation($event)"
@@ -8,3 +9,4 @@
       <img [src]= 'item'/>
   </div>
 </div>
+</mat-card>
